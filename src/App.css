@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Navbar */
+.Navbar {
+  background: linear-gradient(90deg, #7E61BF 0%, #E4B1EF 100%);
+}
+
+.bg-nav {
+  background: linear-gradient(90deg, #7E61BF 0%, #E4B1EF 100%);
+}
+
+/* Header */
+.containerTop {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.851);
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.cartTop{
+  text-align: center;
+  color: white;
+}
+
+.cartTop h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.cartTop h4 {
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.cartTop h6 {
+  margin: 50px 200px 0;
+  text-align: center; 
+ 
+}
+
+/* Prodect */
+.cart-Product {
+  width: 100%;
+  height: 500px;
+  padding: 40px;
+}
+
+.img-bg {
+  margin: 40px 0;
+  display: flex; /* ทำให้องค์ประกอบลูกภายในใช้ Flexbox */
+  justify-content: center; /* จัดให้อยู่กลางแนวนอน */
+  align-items: center;
+}
+
+.img-product {
+  width: 580px;
+  height: 300px;
+  border: 2px solid rgba(55, 55, 55, 0.342);
+  
+}
+
+.cart-Product h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
