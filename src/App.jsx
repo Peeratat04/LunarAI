@@ -180,7 +180,7 @@ function Gallery() {
         <span className="btn-sound">
           <button className="btn-try">Try in AI Sound</button>
           <div className="btnBot-sound">
-            <img src="\src\Images\wave-sound.png" alt=""/>
+            <img src="/src/Images/wave-sound.png" alt=""/>
           </div>
         </span>
       </div>
