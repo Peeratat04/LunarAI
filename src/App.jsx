@@ -36,7 +36,7 @@ function App() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img alt="Company" src="src\Images\moon.png" className="h-8 w-auto" />
+                  <img alt="Company" src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_4-512.png" className="h-8 w-auto" />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
